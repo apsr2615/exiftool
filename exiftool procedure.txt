@@ -1,3 +1,7 @@
+1.First download and install exiftool.
+
+2.Install python extension for flask framework in ur code editor.
+
 Your project folder should be structured like this:
 
 exiftool/
