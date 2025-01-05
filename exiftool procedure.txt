@@ -1,0 +1,21 @@
+Your project folder should be structured like this:
+
+exiftool/
+├── app.py
+├── static/
+│   └── main.css,result.css       
+├── templates/
+│   └── index.html ,result.html     
+└── exiftool/           
+
+
+After this run app.py in command prompt,
+
+1.Change the directory to exiftool project folder.
+
+2.Run the app.py by type python app.py in cmd and enter.
+
+3.Go to browser type localhost:5000 where the main page of project will appear.
+
+4.In that page, upload the image and get the metadata of that image.
+

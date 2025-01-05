@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 4px;
+}
+
+body{
+    background: linear-gradient(to right,rgb(49, 122, 49),rgb(164, 244, 164));
+    overflow-x: hidden;
+
+}
+
+.about{
+    border: 3px solid green;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    width: 55rem;
+    height: 25rem;
+    position: relative;
+    top: 15rem;
+    left: 21rem;
+    row-gap: 10px;
+    margin-bottom: 15px
+}
+
+footer p{
+    position: relative;
+    top: 10rem;
+    left: 18rem;
+}
+
+#metadata-overview{
+    position: relative;
+    left: 2rem;
+    bottom: 2rem;
+} 
+
+#metadata-overview p{
+    position: relative;
+    top: 0.5rem;
+    
+} 
+
+#features{
+    position: relative;
+    left: 2rem;
+    
+} 
+
+#features ul{
+    position: relative;
+    left: 1.2rem;
+    top: 0.5rem;
+    
+} 
+
+#use-cases{
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    
+} 
+
+#use-cases p{
+    position: relative;
+    top: 0.5rem;
+    
+} 
+
+.up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid green;
+    width: 50rem;
+    height: 3rem;
+    position: relative;
+    left: 23rem;
+    top: 10rem;
+    
+}
+
+.upload-button {
+    background-color: #007BFF; 
+    color: white;             
+    border: none;            
+    padding: 10px 20px;      
+    font-size: 16px;          
+    cursor: pointer;          
+    border-radius: 5px;      
+    transition: background-color 0.3s ease; 
+}
+
+.upload-button:hover {
+    background-color: green; 
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+.file-label {
+    display: inline-block;
+    background-color: #007BFF; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease; 
+}
+
+
+.file-label:hover {
+    background-color: green; 
+}
+
+

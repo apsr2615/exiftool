@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExifTool Metadata Viewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+</head>
+<body>
+    <h1>Upload an Image to View Metadata</h1>
+    <div class="up">
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="file-upload" class="file-label">Choose File</label>
+        <input type="file" id="file-upload" name="file" accept="image/*" required>
+        <button type="submit" class="upload-button">Upload</button>
+    </form>
+    </div>
+
+    <div class="about">
+        <section id="metadata-overview">
+        <h2>What is Metadata?</h2>
+        <p>Metadata is essential data embedded in files, providing information about their content and properties.</p>
+    </section>
+    <section id="features">
+        <h2>Why Choose ExifTool?</h2>
+        <ul>
+            <li>Supports a wide range of file formats</li>
+            <li>Free and open-source</li>
+            <li>Batch processing for efficiency</li>
+        </ul>
+    </section>
+    <section id="use-cases">
+        <h2>Common Use Cases</h2>
+        <p>Photography, digital forensics, media management, geolocation, and more.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 ExifTool. All rights reserved.</p>
+    </footer>
+    
+    </div>
+   
+    
+   
+   
+</body>
+</html>
